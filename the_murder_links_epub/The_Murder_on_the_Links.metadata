@@ -1,0 +1,14 @@
+{
+  "book_id": "the_murder_links_epub",
+  "title": "The Murder on the Links",
+  "authors": [
+    "Agatha Christie"
+  ],
+  "isbn_13": null,
+  "publisher": null,
+  "year_published": 2019,
+  "language": "en",
+  "page_count": null,
+  "source_format": "EPUB",
+  "source_file_uri": "s3://cbh-book-storage-dev2/books_for_tests/epub/the_murder_links.epub"
+}
