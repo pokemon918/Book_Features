@@ -75,16 +75,17 @@ KEY ELEMENTS EXTRACTED FROM THIS CHAPTER:
 FULL CHAPTER TEXT:
 {chapter_text}
 
-TARGET LENGTH: Approximately {target_words} words (10-15% of original)
+CRITICAL LENGTH REQUIREMENT: You MUST write approximately {target_words} words (10-15% of original chapter length). This is a MINIMUM requirement - do not write less. If your summary is shorter than {target_words} words, expand it with more detail from the chapter.
 
 Write a summary that:
-1. Captures ALL key events, character actions, and plot developments
-2. Preserves important dialogue or character moments
+1. Captures ALL key events, character actions, and plot developments in detail
+2. Preserves important dialogue or character moments with sufficient context
 3. Maintains the narrative flow - a reader should be able to continue reading the original book after this summary without confusion
-4. Includes any plot twists, revelations, or clues
-5. Notes character introductions and relationship developments
+4. Includes any plot twists, revelations, or clues with proper setup
+5. Notes character introductions and relationship developments thoroughly
+6. Provides enough detail that someone could follow the story without reading the original
 
-Write in clear, engaging prose that matches the book's tone. Do NOT reveal information from later chapters. Write ONLY based on the provided text.
+Write in clear, engaging prose that matches the book's tone. Do NOT reveal information from later chapters. Write ONLY based on the provided text. Output ONLY plain text - no markdown formatting, headers, or bullet points.
 
 SUMMARY:"""
 
@@ -102,17 +103,18 @@ KEY ELEMENTS EXTRACTED FROM THIS CHAPTER:
 FULL CHAPTER TEXT:
 {chapter_text}
 
-TARGET LENGTH: Approximately {target_words} words (10-15% of original)
+CRITICAL LENGTH REQUIREMENT: You MUST write approximately {target_words} words (10-15% of original chapter length). This is a MINIMUM requirement - do not write less. If your summary is shorter than {target_words} words, expand it with more detail from the chapter.
 
 Write a summary that:
-1. Captures ALL main arguments and key concepts
-2. Preserves important evidence, examples, and case studies
-3. Includes any techniques, methods, or tools described
-4. Notes historical references and figures mentioned
+1. Captures ALL main arguments and key concepts with sufficient explanation
+2. Preserves important evidence, examples, and case studies in detail
+3. Includes any techniques, methods, or tools described thoroughly
+4. Notes historical references and figures mentioned with context
 5. Maintains logical flow of the author's reasoning
 6. A reader should be able to continue reading the original book after this summary without confusion
+7. Provides enough detail that someone could understand the key points without reading the original
 
-Write in clear, informative prose. Do NOT use external knowledge about this topic - base everything on the provided text.
+Write in clear, informative prose. Do NOT use external knowledge about this topic - base everything on the provided text. Output ONLY plain text - no markdown formatting, headers, or bullet points.
 
 SUMMARY:"""
 

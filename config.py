@@ -10,7 +10,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "gpt-4o"  # or "gpt-4o-mini" for faster/cheaper processing
 
 # Summary Configuration
-TARGET_SUMMARY_RATIO = 0.12  # 12% of original (middle of 10-15% range)
+TARGET_SUMMARY_RATIO = 0.13  # 13% of original (closer to middle-upper range of 10-15%)
 MIN_SUMMARY_RATIO = 0.10
 MAX_SUMMARY_RATIO = 0.15
 
